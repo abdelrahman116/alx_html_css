@@ -1,0 +1,23 @@
+body{
+    display: flex;
+
+}
+main{
+        display: flex;
+        flex-direction: row;
+        flex: auto
+
+}
+article{
+    width: 2/3*100%;
+    flex: 2;
+     overflow-y: auto
+}
+aside{
+    width: 1/3*100%;
+    flex: 1;
+     overflow-y: auto
+}
+footer{
+    flex: 3;
+}

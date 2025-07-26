@@ -190,9 +190,23 @@ h6 {
 @media (max-width: 800px) {
   body.works_on_smartphone {
   	display: block;
+    max-width: 700px;
+
   }
+  article{
+    width: 100%;
+
+}
+aside{
+    display: none;
+}
+img{
+    max-width: 80%;
+}
   body.works_on_smartphone main {
   	display: block;
+    max-width: 700px;
+
   }
   header .right {
   	float: none;

@@ -1,9 +1,13 @@
 body{
     display: flex;
     flex-direction: column;   
+    background-color: rgb(255, 254, 254);
+    padding: 5px;
 
 }
 main{
+        border: 5px;
+        border-color: brown;
         display: flex;
         flex-direction: row;
         flex: auto
@@ -11,7 +15,16 @@ main{
 }
 header{
     display: block;
+    background-color: brown;
     height: 10%;
+}
+li{
+    display: block;
+}
+li:hover{
+    scale: 0.5;
+transition-duration: 0.5ms;
+    background-color: rgb(222, 86, 86);
 }
 article{
     width: 67%;
@@ -23,7 +36,7 @@ aside{
     flex: 1;
      overflow-y: auto
 }
-
-/* footer{
-    flex: 3;
-} */
+h2 {
+    display: block;
+    /* background-color: aqua; */
+}

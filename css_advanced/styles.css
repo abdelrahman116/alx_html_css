@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body,header{
+    margin: 0;
+    height: 100%;
+    /* max-width: 1440px; */
+    margin-top: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("Object.png");
+    background-repeat: no-repeat;
+    font-family: "Source Sans 3", sans-serif;
+    /* width: 100%; */
+    background-size:100%;
+    position: relative;
+  }
+header{
+  /* display: flex; */
+  /* position: absolute; */
+  /* top:0; */
+  /* width: 1440px; */
+  /* justify-content: flex-end; */
+
+}
+ nav{
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  margin-bottom: 10rem;
+  margin-top: 0.5rem;
+
+}
+nav img{
+  width: 10rem;
+  margin:1rem 2rem ;
+}
+ul{
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+  gap: 40px;
+  list-style: none;
+  margin: 1rem 2rem;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+nav a:hover {
+  color: #C271FF;
+  transition: color 0.2s ease-in-out;
+}
+nav img:hover {
+  scale: 1.2;
+  transition: scale 0.2s ease-in-out;
+}
+main section{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 20rem;
+}
+.school{
+  margin-top: 5rem;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.smile{
+      margin-top: -5rem;
+
+}
+.school span{
+    font-size: 1.2rem;
+    width: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.school button{
+  width: 15rem;
+  border-radius: 2rem;
+  background-color: #C271FF;
+  font-family:"Source Sans 3", sans-serif ;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 4rem;
+}
+.school button:hover {
+  scale: 1.2;
+  transition: scale 0.2s ease-in-out;
+}
+
+h1{
+  font-size: 10rem;
+
+}
+.learn{
+  display: flex;
+  justify-self: center;
+  margin-bottom: 5rem;
+}
+.learn h2{
+  font-size: 3rem;
+  color:white ;
+  font-weight: lighter;
+}
+.learn h2 span{
+  color: #C271FF;
+  font-weight: bold;
+}
+.pros{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: flex-end; */
+  justify-content: space-between;
+  gap: 8rem;
+}
+.pros div{
+width: 15rem;
+}
+.pros div img{
+  border-radius:50%;
+  width: 12rem;
+  height: 12rem;
+
+}
+
+.pros h3{
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pros p{
+  margin-top: -1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  font-style: italic;
+
+}
+.pink{
+  height: 400px;
+  width: 100%;
+  background-color: #C271FF;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-size: 1.7rem;
+  color: white;
+}
+.pink div img{
+  width: 14rem;
+  height: 14rem;
+}
+.pink blockquote{
+  max-width: 730px;
+  margin-left: 0;
+}
+.pink h3{
+  font-weight: bold;
+}
+.pink p{
+  font-style: italic;
+}
+@media (max-width: 1400px) {
+    html { font-size: 60%; }
+}
+@media (max-width: 1030px) {
+    html { font-size: 45%; }
+}
+@media (max-width: 1030px) {
+    html { font-size: 53%; }
+}

@@ -21,8 +21,10 @@ body{
     background-image: url("Object.png");
     background-repeat: no-repeat;
     background-size:100%;
+    zoom:1.2;
     z-index: 50;
     height: 100vh;
+    max-height: 1093px;
     z-index: 0;
  }
  nav{
@@ -373,43 +375,44 @@ section h2 span{
   grid-template-rows: 1fr 1fr;
 }
 .grid .block{
-  margin: 4rem;
+  margin: 8rem;
+  margin-bottom: 4rem;
   margin-top: 0;
   margin-bottom: 0;
   max-width: 22rem;
 }
 .grid .block div h3{
+  margin-top: 4rem;
   color: #071629;
   opacity: 1;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .grid  .para{
   color:#071629;
 opacity: 59%;
-font-size: 0.9rem;
+font-size: 1rem;
 }
 footer section  {
-
   height:20vh ;
   background-color: #071629;
-  
 }
 footer section div{
-  /* margin-top: 5rem; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 100%;
 }
 
-.icons i{
+.icons img{
   display: block;
   color: white;
   margin: 2rem;
 }
 footer section div img{
   max-width:11rem ;
+    color: white;
+
   max-height: 2rem;
 }
 footer section {
@@ -418,7 +421,16 @@ footer section {
   justify-content: space-between;
   gap:0rem ;
 }
+footer .para{
+  margin: 0;
+  padding: 0;
+  background-color: #071629;
+  display: flex;
+  justify-content: center;
+}
+
 footer p{
+  margin: 0;
   color: white;
 }
 @media (max-width: 1580px) {

@@ -15,14 +15,22 @@ body{
     background-size:100%;
     position: relative;
   }
-header{
-  /* display: flex; */
-  /* position: absolute; */
-  /* top:0; */
-  /* width: 1440px; */
-  /* justify-content: flex-end; */
+  .main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+  }
+/* header{
+  display: flex; 
+  position: absolute;
+  top:0;
+  width: 1440px;
+   justify-content: flex-end;
 
-}
+} */
  nav{
   display: flex;
   /* width: 100%; */
@@ -113,10 +121,13 @@ h1{
   display: flex;
   justify-self: center;
   margin-bottom: 5rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .learn h2{
   font-size: 3rem;
-  color:white ;
+  color:rgb(0, 0, 0) ;
   font-weight: lighter;
 }
 .learn h2 span{
@@ -125,7 +136,7 @@ h1{
 }
 .pros{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* align-items: flex-end; */
   justify-content: space-between;
   gap: 8rem;
@@ -177,6 +188,160 @@ width: 15rem;
 }
 .pink p{
   font-style: italic;
+}
+.Videos{
+  display: flex;
+  width: auto;
+  max-height: 70rem;
+  /* width: 100%; */
+  justify-content: space-around;
+  /* align-items: center; */
+  gap: 15rem;
+} 
+.Videos h2{
+font-size: 3rem;
+font-weight: lighter; 
+text-align:center; 
+margin: 0;
+}
+.Videos h2 span{
+  color: #C271FF;
+  font-weight: bold;
+}
+.Videos .card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+}
+.Videos .card div{
+max-height: 535px;
+margin:0;
+}
+.Videos .card p{
+  max-width: 16rem;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.Videos .card .smile{
+width:16rem;
+height:10rem;
+}
+.Videos .card .smile{
+  position: relative;
+  z-index: 0;
+}
+.card .playbutton{
+  position: relative;
+  z-index: 1;
+  /* bottom:50%; */
+  right: 50%;
+  top: -3rem;
+}
+.playbutton:hover{
+  scale: 1.2;
+  transition:ease-in-out 0.2s;
+}
+.Videos .card .Phillip{
+  display: flex;
+  justify-content: flex-start;
+  /* gap: rem; */
+  align-items: center;
+}
+.Videos .card .Phillip img{
+width: 2rem;
+height: 2rem;
+margin-right: 1rem;
+/* display: inline-block; */
+}
+.Videos .card .Phillip h4{
+  /* display: inline-block; */
+  color: #C271FF;
+}
+.star{
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.star div{
+  color: #C271FF;
+}
+.star .gray {
+  color:#D8D8D8;
+}
+.down{
+  display: flex;
+  /* flex-direction:column ; */
+  justify-content:space-between;
+  align-items: center;
+}
+
+.down p{
+  color: #C271FF;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.member{
+  background-color:#071629 ;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  gap: 6rem;
+}
+
+.membership{
+  display: flex;
+  padding: 0;
+}
+
+.membership div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:18rem ;
+  height: 9rem;
+  color: #ffff;
+}
+.membership div p{
+  max-width: 16rem;
+  text-align: center;
+}
+.member h2{
+  font-weight: lighter;
+font-size: 2rem;
+/* text-align: center; */
+color: #ffff;
+}
+section h2 span{
+  font-weight: bold;
+  color: #C271FF;
+}
+.member button{
+  width: 15rem;
+  border-radius: 2rem;
+  background-color: #C271FF;
+  font-family:"Source Sans 3", sans-serif ;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+.member button:hover{
+  scale: 1.2;
+  transition: scale 0.2s ease-in-out;
+}
+.FAQ{
+  display: flex;
+  justify-content: space-between;
+}
+#f.a.q h2{
+font-size: 5rem;
+color: #0000;
+font-weight: lighter;
 }
 @media (max-width: 1400px) {
     html { font-size: 60%; }

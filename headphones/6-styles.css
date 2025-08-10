@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+body {
+  margin: 0;
+  font-family: "Source Sans 3", monospace;
+  color: white;
+}
+header {
+  background-image: url(images/headphones_hero_1.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+}
+.ex,
+.holberton_school-icon-menu {
+  position: absolute;
+  font-size: 1.5rem;
+  left: 1rem;
+  display: none;
+  width: auto;
+}
+nav img {
+  margin: 2rem;
+  max-width: 10rem;
+  max-height: 2rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li {
+  margin: 1rem;
+}
+a {
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ff6565;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  justify-content: space-around;
+  gap: 5rem;
+}
+.content button {
+  max-width: 13rem;
+  max-height: 3rem;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  font-weight: 400;
+  background-color: #ff6565;
+}
+.content button:hover {
+  scale: 1.1;
+  transition: 200ms ease-in-out;
+  background-color: #ae2929;
+}
+.content h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.content h2 {
+  margin-top: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+.content p {
+  max-width: 40rem;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 5rem;
+}
+
+.holberton_school-icon-ic_bag {
+  color: black;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+}
+.ex {
+  width: 2rem;
+  position: absolute;
+  top: 4.3rem;
+  left: 0.75rem;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.15rem;
+}
+
+/* When open: rotate bars to make X */
+.ex .up {
+  transform: rotate(45deg) translate(0.15rem, 0.15rem);
+}
+
+.ex .down {
+  transform: rotate(-45deg) translate(0.15rem, -0.15rem);
+}
+.ex .up {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 2rem;
+  border-radius: 0.2rem;
+  height: 0.25rem;
+}
+.ex .down {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 2rem;
+  border-radius: 0.2rem;
+  height: 0.25rem;
+}
+.what-we-do {
+  margin-top: 0;
+  color: black;
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+.what-we-do .para {
+  margin: 5rem;
+  color: black;
+  text-align: center;
+  max-width: 40rem;
+}
+.what-we-do .cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.what-we-do .cards .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards .card div {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: #ff6565;
+}
+.cards .card p {
+  text-align: center;
+  max-width: 12rem;
+  font-size: 0.75rem;
+}
+.results {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(images/headphones_hero_2.jpg);
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.results p {
+  margin-top: 5rem;
+  font-size: 1rem;
+  max-width: 40rem;
+  text-align: center;
+}
+.our-results {
+  margin-top: 5rem;
+  display: flex;
+  width: 61rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.our-results .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  max-height: 12rem;
+  position: relative;
+}
+.our-results .card img {
+  max-width: 12rem;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  max-height: 12rem;
+}
+
+.our-results .card p {
+  margin: 0;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.our-results .card h1 {
+  margin: 0;
+  position: absolute;
+  font-size: 3rem;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 35vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  width: 355px;
+}
+form input {
+  margin: 1rem;
+  border: none;
+  outline: 0px;
+  background: transparent;
+  offset: 0px;
+  border-bottom: 1px solid black;
+}
+.contact-us button {
+  max-width: 12rem;
+  max-height: 3rem;
+  border-radius: 2rem;
+  padding: 0.75rem 2rem;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  font-weight: 400;
+  background-color: #ff6565;
+}
+footer {
+  background-color: #071629;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerElement {
+  background-color: #071629;
+  height: 25vh;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+.footerElement .logo img {
+  max-width: 10rem;
+  max-height: 2rem;
+}
+.footerElement .icons {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+}
+.footerElement .icons span {
+  font-size: 2rem;
+}
+.halfLogo {
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .what-we-do {
+    height: 80vh;
+  }
+  .what-we-do .cards {
+    max-width: 472px;
+  }
+  .results {
+    height: 100vh;
+  }
+  .our-results {
+    max-width: 455px;
+  }
+  .results .card {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .footerElement .logo .fullLogo {
+    display: none;
+  }
+  .halfLogo {
+    display: block;
+  }
+}
+footer p {
+  font-size: 0.75rem;
+  color: white;
+  opacity: 35.17%;
+}
+@media (max-width: 480px) {
+  .holberton_school-icon-menu {
+    display: block;
+    margin-top: 0;
+    top: 4rem;
+  }
+  .ex {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  nav img {
+    margin-top: 4rem;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    justify-self: center;
+    padding: 0;
+  }
+  nav ul a {
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  header p {
+    max-width: 70vw;
+    margin: 0 1rem;
+  }
+  .content {
+    gap: 2rem;
+  }
+  .what-we-do .cards {
+    max-width: 100px;
+  }
+  .what-we-do .para {
+    max-height: 288px;
+  }
+  .what-we-do {
+    height: 160vh;
+  }
+  .results {
+    height: 175vh;
+  }
+  .results p {
+    width: 20rem;
+  }
+  .results .our-results {
+    justify-content: center;
+    width: 22rem;
+  }
+  form {
+    max-width: 300px;
+  }
+  .footerElement {
+    flex-direction: column;
+    position: relative;
+  }
+  .halfLogo {
+    margin-top: 0.5rem;
+    position: absolute;
+    left: 9rem;
+  }
+}
